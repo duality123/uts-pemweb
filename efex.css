@@ -1,0 +1,128 @@
+    .container {
+        margin-top: 30px;
+    }
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+    body{
+    	background-color:#b4c5de;
+    	background-size: cover;
+    	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Audiowide", sans-serif;
+  font-size: 15px;
+
+  overflow-x: hidden;
+
+   ;
+
+    }
+    .dropdown-toggle,
+    .dropdown-menu {
+        border-radius: 0px !important;
+    }
+    .dropdown-item:hover {
+        color: white;
+        background-color: #dc3545;
+    }
+    .btn-danger {
+        width: 55%;
+    }
+   
+    .nav-link:hover,.nav-item:hover{
+    	 color: white!important;
+        background-color: #dc3545;
+    }
+
+    .btn{
+    	background-color: #dc3545;
+    	border:0px;
+    }
+
+   
+    .carousel-caption{
+    	opacity:0;
+    	background-color:#50565e ;
+    	padding: 10px;
+    }
+   p.carousel-caption {
+    	
+    	
+    }
+
+    .carousel-control-prev{
+    	opacity: 0;
+    }
+
+    .carousel-control-next{
+    	opacity: 0;
+    }
+
+.fotcont{
+	margin: 0px;
+	padding: 0px;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tag1{
+	opacity: 0;
+}

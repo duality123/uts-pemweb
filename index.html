@@ -1,139 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>WEBSITE SISTEM INFORMASI KELAUTAN</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEBSITE SISTEM INFORMASI KELAUTAN</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
+<link rel="stylesheet" type="text/css" href="efex.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 <style type="text/css">
-    .container {
-        margin-top: 30px;
-    }
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-rss {
-  background: #ff6600;
-  color: white;
-}
-
-
-    body{
-    	background-image: url("background123.png");;
-    	background-size: cover;
-    	 background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-
-   ;
-
-    }
-    .dropdown-toggle,
-    .dropdown-menu {
-        border-radius: 0px !important;
-    }
-    .dropdown-item:hover {
-        color: white;
-        background-color: #dc3545;
-    }
-    .btn-danger {
-        width: 55%;
-    }
-   
-    .nav-link:hover,.nav-item:hover{
-    	 color: white!important;
-        background-color: #dc3545;
-    }
-
-    .btn{
-    	background-color: #dc3545;
-    	border:0px;
-    }
-
-   
-    .carousel-caption{
-    	opacity:0;
-    	background-color:#50565e ;
-    	padding: 10px;
-    }
-   p.carousel-caption {
-    	
-    	
-    }
-
-    .carousel-control-prev{
-    	opacity: 0;
-    }
-
-.fotcont{
-	margin: 0px;
-	padding: 0px;
-}
-
-.column1 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row1::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.tag1{
-	opacity: 0;
-}
 </style>
 
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+
+
+  <nav class="navbar navbar-expand-lg navbar-light  bg-white">
   <a class="navbar-brand" href="index.html"><img src=logo.jpeg alt="compact logo" width="150"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -151,7 +35,7 @@
           <a class="dropdown-item" href="Sejarah1.html">Sejarah</a>
           <a class="dropdown-item" href="visimizi.html">Visi Misi</a>
           <a class="dropdown-item" href="strukturorgs.html">Struktur Organisasi</a>
-          <a class="dropdown-item" href="#">Dosen</a>
+          <a class="dropdown-item" href="profilDosen.html">Dosen</a>
         </div>
          </li>
        <li class="nav-item dropdown ">
@@ -177,8 +61,10 @@
   </div>
 </nav>
 
-
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div class="container-fluid bg-light" style="padding: 20px;">
+  <div class="row">
+    <div class="col-xl-7" style="margin-right: 0px; width:80%;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" ></li>
@@ -187,20 +73,20 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="sejarah.png" width="1366px" height="500px">
+      <img src="sejarah.png" width="800px" height="500px">
       <div class="carousel-caption">
-      	<div class="container"><section class="mb-4">
-      		
+        <div class="container"><section class="mb-4">
+          
 
 
-      	</section> </div>
+        </section> </div>
         <h3>Selamat Datang</h3>
         <p>Tahun 2019 UPI Kampus Serang membuka Program Studi Baru yaitu S1 Sistem Informasi Kelautan (SIK). Lulusan prodi S1 SIK memiliki kompetensi untuk mempersiapkan sumberdaya manusia sektor kemaritiman pada era revolusi</p>
         <button type="button" class="btn btn-primary">baca selengkapnya</button>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="lokasi-upi-srg.jpg" width="1366px" height="500px">
+      <img src="lokasi-upi-srg.jpg"  width="800px" height="500px">
       <div class="carousel-caption" style="text-align: left;">
         <h3>Sekilas tentang kampus serang</h3>
         <p>Kehadiran Universitas Pendidikan Indonesia (UPI) di Serang, karena adanya sosok Sekolah Pendidikan Guru (SPG) Negeri Serang, yang berkedudukan di Jl.…</p>
@@ -208,7 +94,7 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="cekfast.jpg" width="1366px" height="500px">
+      <img src="cekfast.jpg"  width="800px" height="500px">
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -218,29 +104,40 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+    </div>
+    <div class="col-md-4" style="padding-left: 0px;">
+      <h1>Sistem Informasi Kelautan</h1>
+      <p>Sebagai Negara kepulauan terbesar di dunia. Menurut Badan Pusat Statistik, Indonesia Tercatat memiliki 17.504 Pulau yang tersebar di 34 Provinsi. Berdasarkan  fakta tersebut dan didukung dengan Sejarah kejayaan kemaritiman Nusantara saat ini Indonesia sedang berupaya untuk menjadi poros Maritim dunia. … </p>
+    </div>
+  </div>
+</div>
+
+
 <div class="container-fluid text-white " style="background-color: #dc3545; margin-top:0px; padding: 20px">
   <h1 class="text-center" >Galeri </h1>
 </div>
 <div class="container taz">    
  <div class="row" >
-   		<div class="col-md-4 tag1" >
+      <div class="col-md-4 tag1" style="margin-top: 20px" >
      <iframe width="350"height="350" src="https://www.youtube.com/embed/uSpL9GR0QaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <div class=" col-xl-8 tag1">
-      <img src="unnamed.jpg" width="200" style="margin: 10px;">
+      <img src="unnamed.jpg" height = "150"width="200"style="margin: 10px;">
 
-      <img src="upiserang.jpeg" width="200"style="float: left;margin: 10px;">
-       <img src="sejarah.png" width="200"style="float: left;margin: 10px;">
-       <img src="sejarah.png" width="200"style="float: left;margin: 10px;">
-       <img src="sejarah.png" width="200"style="float: left;margin: 10px;">
-       <img src="sejarah.png" width="200"style="float: left;margin: 10px;">
+      <img src="https://lh3.googleusercontent.com/proxy/nmlXg9ADals1lnNB5GOGszX0L2PI0KTv1nX-h6o29h1ed9SEOfrJZAKS_cFjENiwFEK8RiITEGhl0E0H8SO5TpN4NymWfzvr4HyJhXqXRKMDJbf1p_RPK52ejZw" width="200"style="float: left;margin: 10px;">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4AK3A-6TeNnAKbd0Y5l2yLV8JMMc9xBNHYo-vCR6bf-Tr1DdKmEUbG_QzlDOrvM8l7GY&usqp=CAU" width="200"style="float: left;margin: 10px;">
+       <img src="https://lh3.googleusercontent.com/proxy/nmlXg9ADals1lnNB5GOGszX0L2PI0KTv1nX-h6o29h1ed9SEOfrJZAKS_cFjENiwFEK8RiITEGhl0E0H8SO5TpN4NymWfzvr4HyJhXqXRKMDJbf1p_RPK52ejZw" width="200"style="float: left;margin: 10px;">
+       <img src="http://berita.upi.edu/wp-content/uploads/2015/09/UPI-Serang.jpg" height = "150"width="200"style="float: left;margin: 10px;">
+<img src="https://lh3.googleusercontent.com/proxy/nmlXg9ADals1lnNB5GOGszX0L2PI0KTv1nX-h6o29h1ed9SEOfrJZAKS_cFjENiwFEK8RiITEGhl0E0H8SO5TpN4NymWfzvr4HyJhXqXRKMDJbf1p_RPK52ejZw" width="200"style="float: left;margin: 10px;">
+      
    </div>
    
     </div>
   </div>
-<br>	
+<br>  
 
-<div class="container-fluid text-white " style="background: rgba(65, 79, 102, 0.8); margin-top:0px; padding: 50px">
-	 <h1 class="text-center">Penerimaan Mahasiswa Baru </h1>
+<div class="text-white tag3 " style="background: rgba(65, 79, 102, 0.8); margin-top:0px; padding: 50px;display: none">
+  
+   <h1 class="text-center">Penerimaan Mahasiswa Baru </h1>
  <p>Universitas Pendidikan Indonesia (UPI) sebagai salah satu Perguruan Tinggi Negeri Berbadan Hukum (PTN-BH) di Indonesia merupakan universitas dengan jati diri kependidikan. UPI menerapkan sistem multi kampus dengan UPI Bandung atau Bumi Siliwangi sebagai Kampus Pusat, sedangkan Kampus Daerah tersebar di Provinsi Jawa Barat meliputi Cibiru, Tasikmalaya, Purwakarta, Sumedang, dan Provinsi Banten di Kota Serang. Sebagai PTN maka penerimaan mahasiswa baru setiap tahunnya melalui jalur Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN), Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN), Seleksi Mandiri, dan Prestasi Istimewa.</p>
 
 </div>
@@ -249,8 +146,11 @@
 
 
 
-<div class="container-fluid text-white ">    
-  <div class="row" style="background: rgba(65, 79, 102, 0.7); margin-top: 0px; padding: 50px;">
+<div class="container-fluid text-white "style = "height: 800px;background: rgba(65, 79, 102, 0.7);padding: 50px;">
+  <div class="cek " style="display: none;">
+<h1 style="margin-bottom: 20px;">Berita</h1>
+  <div class="row " style=" margin-top: 0px; ">
+
     <div class="col-sm-4">
       <h1>Dies Natalis UPI Ke-67: Membangun Pendidikan Bermutu dan Berkeadilan untuk Indonesia Maju</h1>
       <p>Kamis (21/10) Universitas Pendidikan Indonesia (UPI) menyelenggarakan prosesi sidang terbuka universitas dalam rangka Dies Natalis UPI ke-67. Kegiatan ini merupakan…</p><button type="button" class="btn btn-primary">baca selengkapnya</button>
@@ -266,13 +166,13 @@
     </div>
     </div>
   </div>
-
+</div>
 <footer class="bg-dark  text-white">
   <div class="fotcont">
   <div class="row ">
 
-  	<div class="col-md-4" style="padding-left: 40px;" >
-  		<h2>Alamat</h2>
+    <div class="col-md-4" style="padding-left: 40px;" >
+      <h2>Alamat</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0370422558067!2d106.14447451443691!3d-6.125717661769271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418adaa4f7f563%3A0x950ec58123df8596!2sUniversitas%20Pendidikan%20Indonesia%20(UPI)%20Kampus%20Serang!5e0!3m2!1sen!2sid!4v1633801460279!5m2!1sen!2sid" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   <p>Jl. Ciracas No.38, Serang, Kec. Serang, Kota Serang, Banten 42116</p>
 </iframe>
@@ -285,7 +185,7 @@
  </div>
 
  <div class="social">
- 	<h1> Follow US</h1>
+  <h1> Follow US</h1>
    <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-google"></a>
@@ -351,8 +251,30 @@ $(document).ready(function (){
       opacity: '0'},450);});
 
    $(".taz").hover(function(){
-    $(".tag1").animate({opacity: '1'},550)}
+    $(".tag1").animate({opacity: '1'},1000)}
     );
+
+
+
+ $(window).scroll(function(){
+     if($(window).scrollTop()>=650){
+      $(".tag3").show("slow");
+     }
+    if ($(window).scrollTop()>=850) {
+      $(".cek").show("slow");
+    }
+
+     if ($(window).scrollTop()>=150) {
+      $("nav").addClass("fixed-top")
+    }
+    if ($(window).scrollTop()<=150) {
+      $("nav").removeClass("fixed-top")
+    }
+  });
+
+
+
+
 
 
 });
